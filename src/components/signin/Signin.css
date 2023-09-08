@@ -1,0 +1,126 @@
+/* background css start */
+.signin {
+    height: 102.4rem;
+    width: 100%;
+    background-image: url("/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border: 1px solid var(--bg-color-1);
+}
+
+.wave1,
+.wave2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 12.488rem;
+    width: 100%;
+}
+
+.wave1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.wave2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.mode {
+    position: absolute;
+    bottom: 1.8rem;
+    left: 4.25rem;
+    right: 0;
+    width: 7.875rem;
+    height: 7.875rem;
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mode img {
+    width: 100%;
+    height: 100%;
+}
+
+/* background css ends------------ */
+
+
+.signin p:nth-child(1) {
+    font-size: 6.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    color: var(--text-color-1);
+    font-family: var(--font-family-1);
+    margin-top: 28.9rem;
+}
+
+.signin p:nth-child(2) {
+    color: var(--text-color-1);
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 4.4rem;
+    font-family: var(--font-family-1);
+}
+
+.signin div:nth-child(3) {
+    height: 4.1rem;
+    width: 33.8rem;
+    margin: auto;
+    margin-top: 4.7rem;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user .button:nth-child(1) {
+    background-color: var(--bg-color-2);
+    width: 13.9rem;
+    height: 100%;
+    border-radius: var(--border-radius-1);
+    border: none;
+    cursor: pointer;
+    color: var(--text-color-1);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.user .button:nth-child(2) {
+    background-color: var(--bg-color-1);
+    width: 13.9rem;
+    height: 100%;
+    border-radius: var(--border-radius-1);
+    border: none;
+    cursor: pointer;
+    color: var(--text-color-1);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--font-family-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

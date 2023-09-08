@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --text-color-1: #FFF;
+  --text-color-2: #20DF7F;
+  --font-family-1: 'Lexend Deca';
+  --font-family-2: 'Montserrat';
+  --font-family-3: 'Poppins';
+  --bg-color-1: #224957;
+  --bg-color-2: #20DF7F;
+  --bg-color-3: #093545;
+  --bg-color-4: #D9D9D9;
+  --bg-color-5: #3E606D;
+  --box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+  --box-shadow-2: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --border-radius-1: 1.5rem;
+  --border-radius-2: 1rem;
+  --border-radius-3: 0.8078rem;
+}
+
+@media(max-width:400px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media((min-width:400px) and (max-width:1200px)){
+  html{
+    font-size: 60%;
+  }
+}
+
+input:focus{
+  outline: 1px solid var(--bg-color-2);
+}

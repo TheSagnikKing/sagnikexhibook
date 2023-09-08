@@ -1,0 +1,265 @@
+.exhibition {
+    height: 95rem;
+    width: calc(100% - 23.5rem);
+    position: absolute;
+    top: 6.3rem;
+    left: 23.5rem;
+    background-color: var(--bg-color-3);
+    padding: 14.2rem 5.4rem 0rem 4rem;
+}
+
+.exhibition-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-inline: 6.4rem 5.4rem;
+}
+
+.exhibition-header p {
+    color: var(--text-color-1);
+    font-family: var(--font-family-3);
+    font-size: 1.6156rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.exhibition-content {
+    margin-top: 2.8rem;
+    height: 68.4rem;
+    border-radius: var(--border-radius-3);
+    background: var(--bg-color-1);
+    padding: 2.4rem 5.4rem 0rem 6.4rem;
+    overflow-y: scroll;
+}
+
+.exhibition-content>div {
+    height: 3.6rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    margin-bottom: 4.4rem;
+    text-align: start;
+    
+}
+
+.exhibition-content>div>p {
+    color: var(--text-color-1);
+    font-family: var(--font-family-3);
+    font-size: 1.4136rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.exhibition-content>div div:nth-child(3) {
+    height: 100%;
+    display: flex;
+    display: grid;
+    grid-template-columns: 4.2rem 5.1rem 4.2rem;
+}
+
+.exhibition-content>div>div:nth-child(3)>div:nth-child(1) {
+    border-radius: 6px 0px 0px 6px;
+    background: var(--bg-color-4);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.exhibition-content>div>div:nth-child(3)>div:nth-child(3) {
+    border-radius: 0px 6px 6px 0px;
+    background: var(--bg-color-4);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.exhibition-content>div>div:nth-child(3)>p:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.6rem;
+    background: var(--bg-color-5);
+    color: var(--text-color-1);
+    font-family: var(--font-family-3);
+    font-size: 1.4136rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ex_approve1{
+    width: 13.2rem;
+    height: 3.6rem;
+    border-radius: var(--border-radius-2);
+    background: var(--bg-color-2);
+    box-shadow: var(--box-shadow);
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: 1.4136rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ex_approve2{
+    width: 13.2rem;
+    height: 3.6rem;
+    border-radius: var(--border-radius-2);
+    background: var(--bg-color-3);
+    box-shadow: var(--box-shadow);
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: 1.4136rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media((min-width:400px) and (max-width:1200px)){
+    .exhibition{
+        left: 0rem;
+        width: 100%;
+        padding: 0rem;
+        overflow: scroll;
+        padding-inline: 2rem;
+    }
+    .exhibition-header {
+        width: 75rem;
+        padding: 0.5rem;
+        text-align: start;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,15rem);
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        height: 5rem;
+    }
+
+    .exhibition-header>p {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .exhibition-content{
+        width: 95%;
+        padding: 0.5rem;
+        margin: auto;
+        height: 68.4rem;
+        overflow: initial;
+        background-color: var(--bg-color-1);
+        padding-block: 1rem;
+        border-radius: 0.5rem;
+        width: 75rem;
+        overflow-y: scroll;
+    }
+    .exhibition-content>div{
+        display: grid;
+        grid-template-columns: repeat(4,15rem);
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        border: 2px solid var(--bg-color-3);
+        border-radius: 0.5rem;
+        height: 5rem;
+        padding-inline: 2rem;
+    }
+
+    .exhibition-content>div>p{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4136rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+@media(max-width:400px){
+    .exhibition{
+        left: 0rem;
+        width: 100%;
+        padding: 0rem;
+        overflow: scroll;
+        padding-inline: 2rem;
+    }
+    .exhibition-header {
+        width: 95%;
+        padding: 0.5rem;
+        text-align: start;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,15rem);
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        height: 5rem;
+    }
+
+    .exhibition-header>p {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .exhibition-content{
+        width: 95%;
+        padding: 0.5rem;
+        margin: auto;
+        height: 68.4rem;
+        overflow: initial;
+        background-color: var(--bg-color-1);
+        padding-block: 1rem;
+        border-radius: 0.5rem;
+        width: 75rem;
+        overflow-y: scroll;
+    }
+    .exhibition-content>div{
+        display: grid;
+        grid-template-columns: repeat(4,15rem);
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        border: 2px solid var(--bg-color-3);
+        border-radius: 0.5rem;
+        height: 5rem;
+        padding-inline: 2rem;
+    }
+
+    .exhibition-content>div>p{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4136rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

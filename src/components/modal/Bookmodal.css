@@ -1,0 +1,107 @@
+.book-modal-wrapper {
+    position: fixed;
+    left: 23.5rem;
+    right: 0;
+    bottom: 0;
+    top: 6.3rem;
+    background: rgba(9, 53, 69, 0.73);
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-modal-container {
+    width: 35%;
+    height: 50.5rem;
+    border-radius: 2.9rem;
+    background: var(--bg-color-1);
+    padding-block: 4.8rem 4.6rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    overflow-y: scroll;
+}
+
+.book-modal-container p {
+    color: var(--text-color-1);
+    font-family: var(--font-family-3);
+    font-size: 1.6156rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.book-modal-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.book-modal-head>p{
+    font-size: 1.8rem;
+}
+
+.book-modal-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.book-modal-content>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.bookmodal-premium-ur-time{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+.bookmodal-loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media((min-width:900px) and (max-width:1200px)){
+    .book-modal-wrapper{
+        left: 0rem;
+        display: block;
+    }
+    .book-modal-container{
+        width: 50%;
+        margin: auto;
+        margin-top: 10rem;
+    }
+}
+
+
+@media((min-width:600px) and (max-width:900px)){
+    .book-modal-wrapper{
+        left: 0rem;
+        display: block;
+    }
+    .book-modal-container{
+        width: 50%;
+        margin: auto;
+        margin-top: 10rem;
+    }
+}
+
+@media(max-width:600px){
+    .book-modal-wrapper{
+        left: 0rem;
+        display: block;
+    }
+    .book-modal-container{
+        width: 95%;
+        margin: auto;
+        margin-top: 10rem;
+    }
+}

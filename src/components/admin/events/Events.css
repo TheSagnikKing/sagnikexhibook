@@ -1,0 +1,280 @@
+.event-dashboard {
+    width: calc(100% - 23.5rem);
+    height: 88rem;
+    position: absolute;
+    top: 6.3rem;
+    left: 23.5rem;
+    background-color: var(--bg-color-3);
+    padding: 3rem 4rem;
+}
+
+.event-dashboard>div:nth-child(1) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.crt-btn {
+    width: 19.2rem;
+    height: 4.1rem;
+    border-radius: var(--border-radius-1);
+    background: var(--bg-color-2);
+    color: var(--text-color-1);
+    font-family: var(--font-family-3);
+    font-size: 1.616rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 3rem;
+    text-decoration: none;
+}
+
+.carousel-root {
+    height: 70rem;
+}
+
+.carousel {
+    border-radius: var(--border-radius-2);
+    height: 100%;
+}
+
+.carousel-slide {
+    height: 70rem;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel .control-dots .dot {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    background-color: var(--bg-color-2) !important;
+}
+
+.carousel .control-dots .dot.selected {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+
+.admin-loader {
+    display: flex !important;
+    justify-content: center ;
+    align-items: center !important;
+}
+
+.admin-event-header{
+    width: 100%;
+    height: 4.5rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    padding-inline: 3rem;
+}
+
+.admin-event-header>p{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.admin-event-content{
+    width: 100%;
+    height: 68.4rem;
+    border-radius: 0.8078rem;
+    background: #224957;
+    padding: 3rem;
+    overflow-y: scroll;
+}
+
+.admin-event-content>div {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    margin-bottom: 3rem;
+    height: 4.5rem;
+}
+
+.admin-event-content>div p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4136rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.admin-event-content>div:hover{
+    cursor: pointer;
+    background-color:#093545;
+}
+
+@media((min-width:400px) and (max-width:1200px)){
+    .event-dashboard {
+        left: 0rem;
+        width: 100%;
+        padding: 0rem;
+        overflow: scroll;
+        padding-inline:2rem;
+    }
+
+    .event-dashboard>div:nth-child(1) {
+        width: 95%;
+        padding: 0.5rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .event-dashboard>div:nth-child(1) .crt-btn {
+        margin-block: 1rem;
+    }
+
+    .admin-event-header {
+        width: 95%;
+        padding: 0.5rem;
+        text-align: start;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(7,15rem);
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .admin-event-header>p {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .admin-event-content{
+        width:130rem;
+        padding: 0.5rem;
+        margin: auto;
+        height: 68.4rem;
+        overflow: initial;
+        background-color: var(--bg-color-1);
+        padding-block: 1rem;
+        border-radius: 0.5rem;
+        overflow-y: scroll;
+    }
+    .admin-event-content>div{
+        display: grid;
+        grid-template-columns: repeat(7,15rem);
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        border: 2px solid var(--bg-color-3);
+        border-radius: 0.5rem;
+        height: 5rem;
+    }
+
+    .admin-event-content>div>p{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4136rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+@media(max-width:400px) {
+    .event-dashboard {
+        left: 0rem;
+        width: 100%;
+        padding: 0rem;
+        overflow: scroll;
+        padding-inline:2rem;
+    }
+
+    .event-dashboard>div:nth-child(1) {
+        width: 95%;
+        padding: 0.5rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .event-dashboard>div:nth-child(1) .crt-btn {
+        margin-block: 1rem;
+    }
+
+    .admin-event-header {
+        width: 95%;
+        padding: 0.5rem;
+        text-align: start;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(7,15rem);
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .admin-event-header>p {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .admin-event-content{
+        width:130rem;
+        padding: 0.5rem;
+        margin: auto;
+        height: 68.4rem;
+        overflow: initial;
+        background-color: var(--bg-color-1);
+        padding-block: 1rem;
+        border-radius: 0.5rem;
+        overflow-y: scroll;
+    }
+    .admin-event-content>div{
+        display: grid;
+        grid-template-columns: repeat(7,15rem);
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        border: 2px solid var(--bg-color-3);
+        border-radius: 0.5rem;
+        height: 5rem;
+    }
+
+    .admin-event-content>div>p{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4136rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

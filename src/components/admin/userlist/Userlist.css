@@ -1,0 +1,258 @@
+.userlist {
+    width: calc(100% - 23.5rem);
+    height: 110rem;
+    position: absolute;
+    top: 6.3rem;
+    left: 23.5rem;
+    background-color: var(--bg-color-3);
+    padding: 15rem 5.4rem 0rem 4rem;
+}
+
+.userlist-header {
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    height: 2.4rem;
+}
+
+.userlist-header p {
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: 1.6156rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.userlist-content {
+    margin-top: 2rem;
+    background-color: var(--bg-color-1);
+    height: 68.4rem;
+    border-radius: var(--border-radius-3);
+    overflow-y: scroll;
+    padding-block: 3rem;
+}
+
+.userlist-content div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 4.4rem;
+}
+
+.userlist-content div p {
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: 1.4136rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user-approve{
+    width: 9.7rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: 2px solid var(--bg-color-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: 1.4136rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none !important;
+    box-shadow: none !important;
+}
+.not-approve{
+    width: 9.7rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bg-color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: 1.4136rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: none !important;
+    cursor: pointer;
+}
+
+.create-link {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5.6rem;
+    width: 30rem;
+    height: 4.5rem;
+    border-radius: var(--border-radius-2);
+    background: var(--bg-color-2);
+    box-shadow: var(--box-shadow);
+    border: none;
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: 1.6156rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.admin-loader{
+    border: none !important;
+}
+
+@media((min-width:400px) and (max-width:1200px)){
+    .userlist{
+        left: 0rem;
+        width: 100%;
+        overflow: scroll;
+        padding: 0rem;
+        padding-inline: 2rem;
+    }
+
+    .userlist-header {
+        width: 90rem;
+        padding: 0.5rem;
+        text-align: start;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5,15rem);
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        height: 4rem;
+    }
+
+    .userlist-header>p {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .userlist-content{
+        padding: 0.5rem;
+        margin: auto;
+        height: 68.4rem;
+        overflow: initial;
+        background-color: var(--bg-color-1);
+        padding-block: 1rem;
+        border-radius: 0.5rem;
+        width: 90rem;
+        overflow-y: scroll;
+    }
+    .userlist-content>div{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5,15rem);
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        border: 2px solid var(--bg-color-3);
+        border-radius: 0.5rem;
+        height: 5rem;
+    }
+
+    .userlist-content>div>p{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4136rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .userlist-content>div>button{
+        margin-left: 2.5rem;
+    }
+}
+
+@media(max-width:400px) {
+    .userlist{
+        left: 0rem;
+        width: 100%;
+        overflow: scroll;
+        padding: 0rem;
+        padding-inline: 2rem;
+    }
+
+    .userlist-header {
+        width: 95%;
+        padding: 0.5rem;
+        text-align: start;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5,15rem);
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        height: 4rem;
+    }
+
+    .userlist-header>p {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .userlist-content{
+        width: 95%;
+        padding: 0.5rem;
+        margin: auto;
+        height: 68.4rem;
+        overflow: initial;
+        background-color: var(--bg-color-1);
+        padding-block: 1rem;
+        border-radius: 0.5rem;
+        width: 90rem;
+        overflow-y: scroll;
+    }
+    .userlist-content>div{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5,15rem);
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        border: 2px solid var(--bg-color-3);
+        border-radius: 0.5rem;
+        height: 5rem;
+    }
+
+    .userlist-content>div>p{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4136rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .userlist-content>div>button{
+        margin-left: 2.5rem;
+    }
+}

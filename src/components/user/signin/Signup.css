@@ -1,0 +1,214 @@
+/* background css start */
+.user-signin {
+    height: 102.4rem;
+    width: 100%;
+    background-image: url("/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border: 1px solid var(--bg-color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wave1,
+.wave2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 12.488rem;
+    width: 100%;
+}
+
+.wave1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.wave2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.mode {
+    position: absolute;
+    bottom: 1.8rem;
+    left: 4.25rem;
+    right: 0;
+    width: 7.875rem;
+    height: 7.875rem;
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mode img {
+    width: 100%;
+    height: 100%;
+}
+
+/* background css ends------------ */
+
+.ur-sgn-box {
+    width: 30rem;
+}
+
+.ur-sgn-box>p:nth-child(1) {
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-1);
+    font-size: 6.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ur-sgn-box>p:nth-child(2) {
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-1);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 3.6rem;
+    margin-bottom: 3.4rem;
+}
+
+.ur-sgn-box>input {
+    width: inherit;
+    height: 4.5rem;
+    border-radius: var(--border-radius-2);
+    background-color: var(--bg-color-1);
+    border: none;
+    padding: 1.2rem 0rem 1.3rem 1.8rem;
+    color:var(--text-color-1);
+}
+
+.ur-sgn-box>input::placeholder {
+    color: var(--text-color-1);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: var(--font-family-1);
+}
+
+.ur-sgn-box>input:nth-child(4) {
+    margin-block: 3.2rem 2.3rem;
+}
+
+.ur-sgn-box>div:nth-child(5) {
+    height: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ur-sgn-box>div:nth-child(5) div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.ur-sgn-box>div:nth-child(5)>div:nth-child(1)>input {
+    accent-color: var(--bg-color-1);
+    width: 1.8rem;
+    height: 1.7rem;
+}
+
+.ur-sgn-box>div:nth-child(5) div:nth-child(1) p {
+    color: var(--text-color-1);
+    font-family: var(--font-family-2);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ur-sgn-box>div:nth-child(5)>p:nth-child(2) {
+    color: var(--text-color-2);
+    font-family: var(--font-family-2);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ur-sgn-box button:nth-child(6) {
+    width: inherit;
+    height: 4.5rem;
+    border-radius: var(--border-radius-2);
+    background-color: var(--bg-color-2);
+    box-shadow: var(--box-shadow);
+    border: none;
+    color: var(--text-color-1);
+    font-family: var(--font-family-1);
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    text-transform: capitalize;
+    padding: 1.3rem 12.8rem 1.2rem 12.8rem;
+    margin-block: 2.4rem 2.9rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ur-sgn-box>div:nth-child(7) {
+    width: inherit;
+    height: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.7rem;
+}
+
+.ur-sgn-box>div:nth-child(7)>p:nth-child(1) {
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-2);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ur-sgn-box>div:nth-child(7)>p:nth-child(2) {
+    color: var(--text-color-2);
+    text-align: center;
+    font-family: var(--font-family-2);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ur-forgot{
+    color: var(--text-color-2);
+    text-align: center;
+    font-family: var(--font-family-2);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ur-reg{
+    color: var(--text-color-2);
+    text-align: center;
+    font-family: var(--font-family-2);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

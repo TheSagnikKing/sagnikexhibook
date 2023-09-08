@@ -1,0 +1,266 @@
+/* .create-user {
+    height: 90rem;
+    width: calc(100% - 23.5rem);
+    position: absolute;
+    top: 6.3rem;
+    left: 23.5rem;
+    background-color: var(--bg-color-3);
+}
+
+.create-user-content {
+    width: 72.5rem;
+    height: auto;
+    margin: auto;
+    margin-top: 20rem;
+}
+
+.create-user-content p {
+    width: 100%;
+    text-align: center;
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: 1.6156rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 7.7rem;
+}
+
+
+.create-user-content-bx {
+    width: 72.5rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33.7rem 33.6rem;
+    gap: 5.2rem;
+}
+
+.create-user-content-bx .left {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+}
+
+.create-user-content-bx .left div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.create-user-content-bx .left div label {
+    color: var(--text-color-1);
+    font-family: var(--font-family-3);
+    font-size: 1.6156rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.create-user-content-bx .left div input {
+    height: 5.1rem;
+    border-radius: var(--border-radius-3);
+    background: var(--bg-color-1);
+    border: none;
+    padding: 1.447rem 0px 1.553rem 2.254rem;
+    color: var(--text-color-1);
+    font-family: var(--font-family-3);
+    font-size: 1.4136rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.create-user-content-bx .left div input::placeholder {
+    color: var(--text-color-1);
+}
+
+.create-user-content-bx .right {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+}
+
+.create-user-content-bx .right div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.create-user-content-bx .right div label {
+    color: var(--text-color-1);
+    font-family: var(--font-family-3);
+    font-size: 1.6156rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.create-user-content-bx .right div input {
+    height: 5.1rem;
+    border-radius: var(--border-radius-3);
+    background: var(--bg-color-1);
+    border: none;
+    padding: 1.447rem 0px 1.553rem 2.254rem;
+    color: var(--text-color-1);
+    font-family: var(--font-family-3);
+    font-size: 1.4136rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.create-user-content-bx .right div input::placeholder {
+    color: var(--text-color-1);
+}
+
+.create-user-btn{
+    margin: auto;
+    width: 15.2rem;
+    height: 4.5rem;
+    border-radius: var(--border-radius-2);
+    background: var(--bg-color-2);
+    box-shadow: var(--box-shadow);
+    margin-top: 7.6rem;
+    color:var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: 1.6156rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.admin-signup2 {
+    height: 90rem;
+    width: calc(100% - 23.5rem);
+    position: absolute;
+    top: 6.3rem;
+    left: 23.5rem;
+    background-color: var(--bg-color-3);
+}
+
+.admin-signup2>p {
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-1);
+    font-size: 6.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20.1rem;
+    margin-bottom: 7.7rem;
+}
+
+.ad-sgup-box2{
+    width: 72.5rem;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33.7rem 33.6rem;
+    gap: 5.2rem;
+    color: white;
+}
+
+.ad-sgup-box2>div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ad-sgup-box2>div label{
+    color: var(--text-color-1);
+    font-family: var(--font-family-3);
+    font-size: 1.6156rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ad-sgup-box2>div input{
+    height: 5.1rem;
+    border-radius: var(--border-radius-3);
+    background: var(--bg-color-1);
+    border: none;
+    padding: 1.447rem 0px 1.553rem 2.254rem;
+    color: var(--text-color-1);
+    font-family: var(--font-family-3);
+    font-size: 1.4136rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ad-sgup-box2>div input::placeholder{
+    color: var(--text-color-1);
+}
+
+.btn-box{
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7.6rem;
+}
+
+.btn-box button {
+    width: 30rem;
+    height: inherit;
+    background-color: var(--bg-color-2);
+    border: none;
+    border-radius: var(--border-radius-2);
+    color: var(--text-color-1);
+    padding: 1rem 7.4rem 1.1rem 7.4rem;
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: 1.6156rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media((min-width:600px) and (max-width:1200px)){
+    .admin-signup2 {
+        height: 120vh !important;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .ad-sgup-box2{
+        width:85%;
+        grid-template-columns: 1fr 1fr;
+        gap: 2.7rem;
+    }
+}
+
+@media(max-width:600px){
+    .admin-signup2 {
+        height: 160vh !important;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .ad-sgup-box2{
+        width: 95%;
+        grid-template-columns: 1fr;
+        gap: 2.7rem;
+    }
+}

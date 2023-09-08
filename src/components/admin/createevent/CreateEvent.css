@@ -1,0 +1,494 @@
+.event {
+  height: 210.2rem;
+  width: calc(100% - 23.5rem);
+  position: absolute;
+  top: 6.3rem;
+  left: 23.5rem;
+  background-color: var(--bg-color-3);
+}
+
+.event-header {
+  width: calc(100% - 23.5rem);
+  padding: 2.2rem 4.6rem 0rem 4.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-header h1 {
+  color: var(--text-color-1);
+  text-align: center;
+  text-shadow: var(--box-shadow-2);
+  font-family: var(--font-family-1);
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.event-header button {
+  width: 14.9rem;
+  height: 5.1rem;
+  border-radius: var(--border-radius-3);
+  background: var(--bg-color-2);
+  border: none;
+  color: var(--text-color-1);
+  text-align: center;
+  font-family: var(--font-family-3);
+  font-size: 1.6156rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.event-main {
+  width: 72.5rem;
+  height: auto;
+  margin: auto;
+  margin-top: 2.4rem;
+  display: grid;
+  grid-template-columns: 33.6rem 33.7rem;
+  gap: 5.2rem;
+}
+
+.event-main>div>input {
+  margin-top: 1rem;
+}
+
+.event-main>div label {
+  color: var(--text-color-1);
+  font-family: var(--font-family-3);
+  font-size: 1.6156rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.event-main>div input {
+  width: 100%;
+  height: 5.1rem;
+  border-radius: var(--border-radius-3);
+  background: var(--bg-color-1);
+  border: none;
+  padding-block: 1.5rem;
+  padding-inline: 2.3rem 7.9rem;
+  color: var(--text-color-1);
+  font-family: var(--font-family-3);
+  font-size: 1.4136rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1rem;
+}
+
+.create-user-list {
+  height: 10rem;
+  margin-top: 2rem;
+  border-radius: var(--border-radius-3);
+  background: var(--bg-color-1);
+  border: none;
+  padding-block: 1.5rem;
+  padding-inline: 2.3rem 7.9rem;
+  color: var(--text-color-1);
+  font-family: var(--font-family-3);
+  font-size: 1.4136rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  overflow-y: scroll;
+}
+
+.create-room-list{
+  margin-top: -19.5rem;
+}
+
+.create-room-list>div {
+  height: 10rem;
+  margin-top: 2rem;
+  border-radius: var(--border-radius-3);
+  background: var(--bg-color-1);
+  border: none;
+  padding-block: 1.5rem;
+  padding-inline: 2.3rem 7.9rem;
+  color: var(--text-color-1);
+  font-family: var(--font-family-3);
+  font-size: 1.4136rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  overflow-y: scroll;
+}
+
+.create-room-list>p {
+  color: var(--text-color-1);
+  font-family: var(--font-family-3);
+  font-size: 1.6156rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.create-slots{
+  margin-top: 2rem;
+}
+
+.create-slots>label{
+  color: var(--text-color-1);
+  font-family: var(--font-family-3);
+  font-size: 1.6156rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.create-slots>div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7.5rem;
+}
+.create-slots>div>div:nth-child(1){
+  display: grid;
+  grid-template-columns: 4rem 4rem 4rem;
+  align-items: center;
+}
+.create-slots>div>div:nth-child(1)>button{
+  height: 4rem;
+  background-color: var(--bg-color-2);
+  border: none;
+  color: var(--text-color-1);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.create-slots>div>div:nth-child(1)>p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color-1);
+  font-family: var(--font-family-3);
+  font-size: 1.6156rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.create-slots>div>button:nth-child(2){
+  height: 4rem;
+  background-color: var(--bg-color-2);
+  border: none;
+  color: var(--text-color-1);
+  border-radius: 1.5rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 11.9rem;
+}
+
+.event-btm {
+  width: 72.5rem;
+  height: auto;
+  margin: auto;
+  margin-top: 4.3rem;
+}
+
+.event-btm div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15rem;
+  margin-bottom: 2.6rem;
+}
+
+.event-btm div p {
+  width: 23.4rem;
+  color: var(--text-color-1);
+  font-family: var(--font-family-3);
+  font-size: 1.4136rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.event-btm button {
+  border: none;
+  width: 14.9rem;
+  height: 5.1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: var(--border-radius-3);
+  background: var(--bg-color-2);
+  color: var(--text-color-1);
+  font-family: var(--font-family-3);
+  font-size: 1.6156rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.react-calendar {
+  width: 30rem !important;
+  background: var(--bg-color-1);
+  border-radius: 15px;
+  font-family: var(--font-family-3);
+  line-height: 1.125em;
+  margin-top: 1rem;
+}
+
+.react-calendar--doubleView {
+  width: 700px;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer>* {
+  width: 50%;
+  margin: 0.5em;
+}
+
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Custom Navigation Styles */
+@media screen and (max-width: 500px) {
+
+  .react-calendar__navigation__prev2-button,
+  .react-calendar__navigation__prev-button {
+    display: none;
+  }
+
+  .react-calendar__navigation__label {
+    padding-left: 1rem;
+    text-align: left;
+    color: white !important;
+  }
+}
+
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  height: 44px;
+  margin-bottom: 1em;
+}
+
+.react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+}
+
+.react-calendar__navigation button:disabled {
+  visibility: hidden;
+  background-color: #f0f0f0;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__month-view__weekdays {
+  color: var(--text-color-2);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+/* Each day should be round when hovered */
+.react-calendar__month-view__days__day {
+  padding: 5px;
+  background-clip: content-box !important;
+  border-radius: 15px !important;
+  color: var(--text-color-2);
+}
+
+.react-calendar__navigation__label__labelText {
+  font-weight: 500;
+  font-size: 1.05em;
+  color: var(--text-color-2);
+}
+
+.react-calendar__navigation__label {
+  pointer-events: none;
+}
+
+.react-calendar__navigation__arrow {
+  background-color: #fff;
+  padding: 7px;
+  background-clip: content-box !important;
+  border-radius: 50px;
+  font-size: 1.25em;
+  color: var(--text-color-1);
+}
+
+.react-calendar__navigation__arrow:hover {
+  background-color: rgb(107 114 128);
+  color: black;
+}
+
+/* If you do not wish to show weekends */
+
+/* 
+    .react-calendar__month-view__days > .react-calendar__tile,
+    .react-calendar__month-view__weekdays__weekday {
+      flex-basis: 20% !important;
+      max-width: 20% !important;
+    } 
+    
+    .react-calendar__month-view__weekdays__weekday:nth-child(6),
+    .react-calendar__month-view__weekdays__weekday:nth-child(7) {
+      display: none !important;
+    } 
+    
+    .react-calendar__month-view__days__day--weekend {
+      display: none !important;
+    } 
+    */
+
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.75em;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
+}
+
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #b3b3b3;
+}
+
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+
+.react-calendar__tile {
+  aspect-ratio: 1/1;
+  max-width: 100%;
+  background: none;
+  text-align: center;
+}
+
+.react-calendar__tile:disabled {
+  background: none;
+  color: rgb(107 114 128);
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: rgb(238 242 255);
+}
+
+/* .react-calendar__tile--now {
+    border-radius: 15px;
+    border: 2px solid var(--text-color-2) !important;
+    color: var(--text-color-2);
+  } */
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background-color: rgb(238 242 255);
+}
+
+.react-calendar__tile--hasActive {
+  background: #76baff;
+}
+
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: var(--text-color-2);
+  color: var(--text-color-1);
+}
+
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: rgb(238 242 255);
+}
+
+@media((min-width:900px) and (max-width:1200px)){
+  .event {
+    height: 200rem;
+    width: 100%;
+    position: absolute;
+    top: 6.3rem;
+    left: 0rem;
+    background-color: var(--bg-color-3);
+  }
+  .event-header{
+    width: 100%;
+    align-items: center;
+  }
+  .event-main {
+    width: 67.2rem;
+    height: auto;
+    margin: auto;
+    margin-top: 2.4rem;
+    display: grid;
+    grid-template-columns: 33.6rem 33.7rem;
+    gap: 2rem;
+  }
+  .create-room-list{
+    margin-top: -16.5rem;
+  }
+}
+
+@media(max-width:900px){
+  .event {
+    height: 350rem;
+    width: 100%;
+    position: absolute;
+    top: 6.3rem;
+    left: 0rem;
+    background-color: var(--bg-color-3);
+  }
+  .event-header{
+    width: 100%;
+    align-items: center;
+  }
+  .event-main {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 2.4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .create-room-list{
+    margin-top: 0rem;
+  }
+}

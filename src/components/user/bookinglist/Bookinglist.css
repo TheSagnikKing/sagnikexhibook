@@ -1,0 +1,163 @@
+.bookilist {
+    height: 102.4rem;
+    width: 100%;
+    background: var(--bg-color-3);
+    padding-top: 12.5rem;
+}
+
+.book-head {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 112.5rem;
+    margin: auto;
+    padding-inline: 4.5rem;
+    text-align: center;
+}
+
+.book-head p {
+    color: var(--text-color-1);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: 1.6156rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.book-content {
+    width: 112.5rem;
+    height: 68.4rem;
+    border-radius: var(--border-radius-3);
+    background: var(--bg-color-1);
+    margin: auto;
+    margin-top: 3rem;
+    font-family: var(--font-family-3);
+    color: white;
+    font-size: 16px;
+    padding: 2.4rem 4.5rem;
+    overflow-y: scroll;
+}
+
+.book-content>div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.premium-ur-time{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media((min-width:400px) and (max-width:1200px)){
+    .bookilist{
+        overflow: scroll;
+        padding-inline: 2rem;
+    }
+    .book-head {
+        width: 100rem;
+        padding: 0.5rem;
+        text-align: start;
+        margin: auto;
+        display: grid;
+        grid-template-columns:15rem 15rem 15rem 20rem 15rem;
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        height: 4rem;
+    }
+    .book-head>p{
+        font-size: 1.4rem;
+    }
+    .book-content{
+        font-size: 1.2rem;
+        padding: 2.4rem 1rem;
+        overflow:initial;
+        width: 100rem !important;
+        overflow-y: scroll;
+    }
+
+    .book-content>div{
+        display: grid;
+        grid-template-columns:15rem 15rem 15rem 20rem 15rem;
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        border: 2px solid var(--bg-color-3);
+        border-radius: 0.5rem;
+        height: 5rem;
+    }
+
+    .book-content>div>p{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4136rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .bookilist{
+        padding-top: 3rem;
+    }
+    .loader-div{
+        border: none !important;
+    }
+}
+
+@media(max-width:400px){
+    .bookilist{
+        overflow: scroll;
+        padding-inline: 2rem;
+    }
+    .book-head {
+        width: 100rem;
+        padding: 0.5rem;
+        text-align: start;
+        margin: auto;
+        display: grid;
+        grid-template-columns:15rem 15rem 15rem 20rem 15rem;
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        height: 4rem;
+    }
+    .book-head>p{
+        font-size: 1.4rem;
+    }
+    .book-content{
+        font-size: 1.2rem;
+        padding: 2.4rem 1rem;
+        overflow:initial;
+        width: 100rem !important;
+        overflow-y: scroll;
+    }
+
+    .book-content>div{
+        display: grid;
+        grid-template-columns:15rem 15rem 15rem 20rem 15rem;
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        border: 2px solid var(--bg-color-3);
+        border-radius: 0.5rem;
+        height: 5rem;
+    }
+
+    .book-content>div>p{
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 1.4136rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .bookilist{
+        padding-top: 3rem;
+    }
+    .loader-div{
+        border: none !important;
+    }
+}
